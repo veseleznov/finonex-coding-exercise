@@ -1,8 +1,8 @@
 # Setup
 
-1. Install Node.js 18.20 or newer, including npm.
+1. Install Node.js 24.
 2. Create a BrowserStack account with App Automate access. Get your BrowserStack username and access key from your account settings.
-3. Download the [Sauce Labs Mobile Sample App 2.7.1](https://github.com/saucelabs/sample-app-mobile/releases/tag/2.7.1) **iOS real-device** package. If it is zipped, extract the `.ipa`. In BrowserStack **App Automate → App Management → Upload App**, upload the `.ipa` for App automate and copy the returned `bs://` app URL. You can also reuse an app already uploaded to your account.
+3. Download the [Sauce Labs Mobile Sample App 2.7.1](https://github.com/saucelabs/sample-app-mobile/releases/tag/2.7.1) **iOS real-device** package. In BrowserStack **App Automate → App Management → Upload App**, upload the `.ipa` for App automate and copy the returned `bs://` app URL. You can also reuse an app already uploaded to your account.
 4. In a terminal at the project root, install dependencies and create your local configuration:
 
    ```bash
