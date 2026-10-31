@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+artifacts/
+*.log
+log/
+logs/
+.idea/
+*.ipa
+*.app/
+.DS_Store
