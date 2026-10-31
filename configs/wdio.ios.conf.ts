@@ -7,8 +7,8 @@ if (!appUrl) {
 
 const iosDevices = [
   { name: 'iPhone 16', version: '18' },
-  // { name: 'iPhone 16 Pro', version: '18' },
-  // { name: 'iPhone 17', version: '26' },
+  { name: 'iPhone 16 Pro', version: '18' },
+  { name: 'iPhone 17', version: '26' },
 ];
 
 const commonCapabilities = {
